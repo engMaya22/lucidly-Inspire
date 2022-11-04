@@ -1,0 +1,20 @@
+{
+    "name": "lucidly/inspire",
+    "description": "type a quote",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lucidly\\Inspire\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "maya"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
